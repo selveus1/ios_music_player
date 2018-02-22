@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ACF3D20F203F7D0F00795E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3D20E203F7D0F00795E53 /* AppDelegate.swift */; };
-		ACF3D211203F7D0F00795E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3D210203F7D0F00795E53 /* ViewController.swift */; };
 		ACF3D214203F7D0F00795E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF3D212203F7D0F00795E53 /* Main.storyboard */; };
 		ACF3D216203F7D0F00795E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF3D215203F7D0F00795E53 /* Assets.xcassets */; };
 		ACF3D219203F7D0F00795E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF3D217203F7D0F00795E53 /* LaunchScreen.storyboard */; };
 		ACF3D224203F7D1000795E53 /* MusicPlayerITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3D223203F7D1000795E53 /* MusicPlayerITests.swift */; };
 		ACF3D22F203F7D1000795E53 /* MusicPlayerIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3D22E203F7D1000795E53 /* MusicPlayerIUITests.swift */; };
+		ACF3D23D203F7DB400795E53 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3D23C203F7DB400795E53 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		ACF3D20B203F7D0F00795E53 /* MusicPlayerI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF3D20E203F7D0F00795E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF3D210203F7D0F00795E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACF3D213203F7D0F00795E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF3D215203F7D0F00795E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF3D218203F7D0F00795E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		ACF3D22A203F7D1000795E53 /* MusicPlayerIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF3D22E203F7D1000795E53 /* MusicPlayerIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerIUITests.swift; sourceTree = "<group>"; };
 		ACF3D230203F7D1000795E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF3D23C203F7DB400795E53 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				ACF3D20E203F7D0F00795E53 /* AppDelegate.swift */,
-				ACF3D210203F7D0F00795E53 /* ViewController.swift */,
 				ACF3D212203F7D0F00795E53 /* Main.storyboard */,
 				ACF3D215203F7D0F00795E53 /* Assets.xcassets */,
 				ACF3D217203F7D0F00795E53 /* LaunchScreen.storyboard */,
 				ACF3D21A203F7D0F00795E53 /* Info.plist */,
+				ACF3D23C203F7DB400795E53 /* GenreButtonScreen.swift */,
 			);
 			path = MusicPlayerI;
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF3D211203F7D0F00795E53 /* ViewController.swift in Sources */,
 				ACF3D20F203F7D0F00795E53 /* AppDelegate.swift in Sources */,
+				ACF3D23D203F7DB400795E53 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
